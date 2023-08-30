@@ -1,0 +1,5 @@
+[build]
+system = "dockerfile"
+
+[services.web]
+command = "node server.js"
